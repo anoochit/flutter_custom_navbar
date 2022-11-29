@@ -173,7 +173,7 @@ class CustomFloatingActionButton extends StatelessWidget {
                 // text
                 Text(
                   "สแกน",
-                  style: Theme.of(context).textTheme.labelMedium!.copyWith(color: Colors.white),
+                  style: Theme.of(context).textTheme.labelSmall!.copyWith(color: Colors.white),
                 ),
               ],
             ),
@@ -207,7 +207,7 @@ class CustomNavigationBarItem extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          // icon
+          // notification icon dot
           Stack(
             children: [
               Icon(
